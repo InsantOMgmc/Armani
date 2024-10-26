@@ -222,3 +222,8 @@ function closePolicy(selector) {
   const policyItem = document.querySelector("." + selector + "__policy");
   policyItem.classList.remove("open")
 }
+
+const menuCategoryBtns = document.querySelectorAll('.menu-category');
+menuCategoryBtns.forEach(btn => {
+  console.log(btn);
+})
