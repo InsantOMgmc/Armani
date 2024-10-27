@@ -223,7 +223,3 @@ function closePolicy(selector) {
   policyItem.classList.remove("open")
 }
 
-const menuCategoryBtns = document.querySelectorAll('.menu-category');
-menuCategoryBtns.forEach(btn => {
-  console.log(btn);
-})

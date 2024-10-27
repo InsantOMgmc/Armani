@@ -899,7 +899,10 @@ main {
     gap: 6px;
     max-width: 199px
 }
-
+.menu-category__img {
+    max-width: 110px;
+    object-fit: cover;
+}
 .menu-category__name {
     font-family: "Mulish", sans-serif;
     font-weight: 600;
